@@ -1,0 +1,309 @@
+<!doctype html> 
+<html lang="en">
+<head>
+  <!-- Обязательные метатеги -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"> 
+  <link href="css/jquery.fancybox.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script  src="js/slick.js"></script>
+
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <script>
+    $(function() {
+ let header = $('.fixed');
+  
+ $(window).scroll(function() {
+   if($(this).scrollTop() > 400) {
+    header.addClass('header_fixed');
+   } else {
+    header.removeClass('header_fixed');
+   }
+ });
+});
+  </script> 
+<title>Woman's Life</title>
+</head>
+<body>
+  <header class="header" >
+  <!-- меню -->
+   <nav class="navbar navbar-expand-lg navbar-dark fixed" aria-label="Fourth navbar example">
+    <div class="container-fluid">
+      
+      <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Переключить навигацию">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a  class="navbar-brand vids" href="index.html">       
+        <img class="logo" src="images/mobil/logo-mobil.png" alt="">
+      </a>
+
+      <div class="collapse navbar-collapse " id="navbarsExample04">
+              
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <div class="row">
+          <div class="col-6">
+          <div class="logo_v_menu"> 
+          <button type="button" class="btn-close btn-close-white shadow-none vids" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Close"></button>
+          </div>
+          </div>
+          <div class="col-6">
+          <div class="logo_v_menu-richt">
+            <a  class="navbar-brand vids" href="index.html">       
+              <img class="logo" src="images/mobil/logo-mobil.png" alt="">
+            </a>
+          </div>
+          </div>
+          </div>
+          
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#obo">Обо мне</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#proga">Программа</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#resultat">Результат</a>
+          </li>
+          <li  >
+          <a  class="navbar-brand vid" href="index.html"><img class="logo" src="images/logo.png" alt=""></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#fao">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#kon">Контакты</a>
+          </li>
+          <li class="nav-link">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#kabinet1">Личный кабинет</button>
+          </li>
+        </ul>        
+      </div>
+     
+    </div>
+  </nav>
+  <!-- end_меню -->
+</header>
+
+  <div class="container ">
+    <div class="row">
+      <h1 class="tarif-wom">Тариф «МИНИМАЛЬНЫЙ»</h1>    
+    <div class="col-md-6 up-mini">
+      <h5>Что входит в программу</h5>
+      <div class="perechen">
+            <ul class="perechen-spisok">
+              <li class="marker-mini">Вы получите возможность доступа к тренировкам  в вашем личном кабинете и сможете заниматься в любое удобное для вас время</li>
+              <li class="marker-mini">Самостоятельно расчитаете суточнкую норму калорий и необходимое количество макронутриентов (БЖУ) по формуле, что займет не более 5 минут</li>
+              <li class="marker-mini">16 тренировок включают в себя 2-3 силовых, 2-1 коррекционных или кардио (в зависимости от желаемого количества тренировок в неделю)</li>
+              <li class="marker-mini">Специально разработанный трекер эффективности программы основывается на контроле замеров параметров тела, фото в начале, середине и конце программы для анализа изменений качества тела и дополнительной мотивации</li>
+            </ul>
+          </div>
+          <div class="cena">
+          <h1>180 ₽</h1><span>2490 ⁣⁣⁣</span><span1>₽</span1>
+        </div>
+        <div class="mini">
+        <button type="button" class="btn-info btn-cena" data-bs-toggle="modal" data-bs-target="#minimal">Выбрать</button>
+        <p>* Нажимая на кнопку, вы даете согласие на обработку персональных данных</p>
+        </div>
+    </div>
+<div class="col-md-6 up-mini">
+  <h5>Что потребуется для тренировок</h5>
+<div class="container overflow-hidden">
+  <div class="row gx-5">
+    <div class="col rd">
+     <div class="argument">
+        <img src="images/tarif/roll.png" alt="">
+            <p>Фитнес-ролл, выбирайте ребристость, исходя из уровня вашей подготовки</p>
+      </div>
+      <div class="argument">
+        <img src="images/tarif/tenis.png" alt="">
+            <p>Теннисный мяч</p>          
+        </div>    
+     <div class="argument">
+        <img src="images/tarif/giri.png" alt="">
+          <p>Гантели от 1,5-3  кг или гиря 4 кг для женщин и 6 кг для мужчин</p>          
+      </div>
+</div>
+    <div class="col">
+      <div class="argument dr">
+        <img src="images/tarif/espan.png" alt="">
+          <p>Эспандер</p>          
+      </div>
+      <div class="argument">
+        <img src="images/tarif/lenta.png" alt="">
+          <p>Эластичная лента</p>          
+      </div>
+      <div class="argument">
+        <img src="images/tarif/pilats.png" alt="">
+         <p>Мяч для пилатес, диаметр 10 см</p>          
+      </div>
+    </div>       
+  </div>
+</div>
+</div>     
+</div>
+</div>
+<footer >
+  <div class="container">
+    <h1 id="kon" class="kon">Контакты</h1> 
+    <div class="row">
+      <div class="col-md-6">
+         <div class="kontakt">
+             <p class="kontakt__name">Ахмеева Ирина Алексеевна
+          </p>
+          <p><a href="mailto:womanslife.online@mail.ru">E-mail:<span1>womanslife.online@mail.ru
+          </span1></a></p>
+          <p><a data-bs-toggle="modal" data-bs-target="#vopros" href="">Тел: +79277780351<span>⁣ ⁣⁣⁣ ⁣⁣⁣ ⁣⁣⁣ ⁣⁣⁣ ⁣⁣⁣ ⁣⁣⁣ ⁣⁣⁣ ⁣⁣⁣ ⁣⁣⁣ ⁣⁣⁣ ⁣⁣⁣ ⁣⁣⁣ ⁣⁣⁣ ⁣ ⁣⁣⁣ ⁣⁣ ⁣⁣⁣ ⁣⁣⁣ ⁣⁣⁣ ⁣⁣⁣ ⁣⁣⁣</span></a></p>
+          <p class="kontakt__inn">ИНН 632402304350
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="oferta">
+          <p><a href="oferta.html">Договор оферты </a></p>
+          <p><a href="politika-obrabotki.html">Политика конфиденциальности</a></p>
+          <p><a href="persoondata.html">Согласие на обработку данных</a></p>
+        </div>
+      </div>
+      <div class="col-md-2 vid">
+        <div class="social text-end">
+          <p><a href="https://tlgg.ru/WomansLifeOnline"><img src="images/telega.png" alt=""></a></p>
+          <p><a href="https://vk.com/irinaahmeeva"><img src="images/vk.png" alt=""></a></p>
+        </div>
+      </div>
+      <div class="disain vid">
+        <div class="row">
+        <div class="col">
+          <p>© 2022, Woman’s Life</p>
+        </div>
+        <div class="col text-end">
+          Дизайн @o.site.design
+        </div>
+      </div>
+    </div>
+<div class="col-md-2 vids soc">
+  <div class="col">
+    <a href="https://tlgg.ru/WomansLifeOnline"><img src="images/mobil/telega-mobil.png" alt=""></a>
+    <a href="https://vk.com/irinaahmeeva"><img src="images/mobil/vk-mobil.png" alt=""></a>
+  </div>
+  <div class="col">
+          <p>© 2022, Woman’s Life</p>
+          <p>Дизайн @o.site.design</p>
+        </div>
+  
+  
+</div>
+
+
+    </div>
+  </div>
+</footer>
+
+<!-- Модальное окно ОПЛАТА ТАРИФ МИНИМАЛЬНЫЙ-->
+
+
+<!-- Модальное окно -->
+<div class="modal fade" id="minimal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header ">
+        
+        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body minimal">
+		<form action="https://womanslife.online/yookassa/index1.php" method="POST">
+        <h1>Оплата</h1>
+        <h3>тариф «МИНИМАЛЬНЫЙ»</h3>
+        <div class="pol">
+          <div class="mb-3">
+          <input type="name"  name="name" class="form-control"  placeholder="Имя и фамилия" required>
+        </div>
+        <div class="mb-3">
+          <input type="phone" name="phone" class="form-control"  placeholder="Тел.: +7 999 999 99 99"  required>
+        </div>
+        <div class="mb-3">
+            <input type="email" name="email" class="form-control"  placeholder="E-mail"  required>
+        </div>
+        </div>
+        <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+  <label class="form-check-label" for="flexCheckDefault">
+   Я ознакомлен(на) с условиями <a href="politika-obrabotki.html">политики конфиденциальсти</a>  и <a href="persoondata.html">согласием на обработку персональных данных</a> 
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input kub" type="checkbox" value="" id="flexCheckChecked" checked>
+  <label class="form-check-label" for="flexCheckChecked">
+    Согласен (на) на получение рассылок
+  </label>
+</div>
+
+      </div>
+
+        
+
+      <div class="modal-footer modal-footer-minimal">
+        <input type="submit" class="btn-info btn-minimal" value="Перейти к оплате" />
+      </div>
+    </div>
+  </div>
+</div>
+</form>
+<!-- Модальное окно ОПЛАТА ТАРИФ МИНИМАЛЬНЫЙ-->
+<!-- Модальное окно Остались вопросы-->
+<div class="modal fade" id="vopros"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header ">
+        
+        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body vopros">
+        <h3>Оставьте свой номер<br> телефона и мы с Вами<br> свяжемся в ближайшее время</h3>
+        <div class="pol">
+          <div class="mb-3">
+          <input type="name" name="name" class="form-control"  placeholder="Имя и фамилия">
+        </div>
+        <div class="mb-3">
+          <input type="phone" name="phone" class="form-control"  placeholder="Тел.: +7 999 999 99 99">
+        </div>
+        <div class="mb-3">
+           <select class="form-select" aria-label="Пример выбора по умолчанию">
+  <option  selected disabled hidden>Удобный вид связи</option>
+  <option value="1">Звонок</option>
+  <option value="2">Телеграм</option>
+  <option value="3">WhatsApp</option>
+</select>
+        </div>
+        </div>
+        <div class="form-check">
+  <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+   Я ознакомлен(на) с условиями <a href="politika-obrabotki.html">политики конфиденциальсти</a>  и <a href="persoondata.html">согласием на обработку персональных данных</a> 
+  </label>
+</div>
+
+      </div>
+      <div class="modal-footer modal-footer-minimal">
+        <button type="button" class="btn-info btn-minimal" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#oplata">Отправить заявку</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--end_Модальное окно Остались вопросы-->
+
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script  src="js/slick.min.js"></script>
+<script  src="js/slaid.js"></script> 
+</body>
+</html>

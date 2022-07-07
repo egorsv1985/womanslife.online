@@ -1,0 +1,381 @@
+<!doctype html> 
+<html lang="en">
+<head>
+  <!-- Обязательные метатеги -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"> 
+  <link href="css/jquery.fancybox.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script  src="js/slick.js"></script>
+  <script>
+    $(function() {
+ let header = $('.fixed');
+  
+ $(window).scroll(function() {
+   if($(this).scrollTop() > 400) {
+    header.addClass('header_fixed');
+   } else {
+    header.removeClass('header_fixed');
+   }
+ });
+});
+  </script>
+<title>Woman's Life</title>
+</head>
+<body>
+
+      <nav class="navbar navbar-expand-lg navbar-dark fixed" aria-label="Fourth navbar example">
+    <div class="container-fluid">
+      
+      <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Переключить навигацию">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a  class="navbar-brand vids" href="index.html">       
+        <img class="logo logo-lk" src="images/mobil/logo-mobil.png" alt="">
+      </a>
+
+      <div class="collapse navbar-collapse " id="navbarsExample04">
+              
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <button type="button" class="btn-close btn-close-white shadow-none vids" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Close"></button>
+            <li>
+          <a  class="navbar-brand vid" href="index.html"><img class="logo" src="images/logo.png" alt=""></a>
+          </li>         
+          <li class="nav-item">
+            <a class="nav-link nav-lk" href="lk-page.html">Приветственная страница</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-lk" href="trenirovki.html">Тренировки</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-lk" href="lichpage.html">Личный кабинет</a>
+          </li>
+          
+        </ul>        
+      </div>
+     
+    </div>
+  </nav>
+
+<div class="container priv">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="privet">
+        <h1>Личный кабинет</h1>        
+      </div>
+        <div class="parametr">
+          <h3>Текущие параметры</h3>
+          <div class="parametr-tabl">
+  <table class="table table-hover table-borderless ramka">
+  <tbody class="">
+    <tr>
+      <th scope="row">Дата</th>
+      <td>1.04.2022</td>
+      <td>15.04.2022</td>
+      <td>28.04.2022</td>
+    </tr>
+    <tr>
+      <th scope="row">Пол:</th>
+      <td>Жен</td>
+      <td>Жен</td>
+      <td>Жен</td>
+    </tr>
+    <tr>
+      <th scope="row">Возраст:</th>
+      <td>33</td>
+      <td>33</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <th scope="row">Рост, в см:</th>
+      <td>175</td>
+      <td>175</td>
+      <td>175</td>
+    </tr>
+    <tr>
+      <th scope="row">Вес, в кг:</th>
+      <td>55</td>
+      <td>55</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <th scope="row">Объем руки:</th>
+      <td>25</td>
+      <td>25</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th scope="row">Объем груди:</th>
+      <td>90</td>
+      <td>90</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <th scope="row">Объем под грудью:</th>
+      <td>80</td>
+      <td>80</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <th scope="row">Объем талии:</th>
+      <td>60</td>
+      <td>60</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th scope="row">Объем живота (под пупком):</th>
+      <td>70</td>
+      <td>70</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th scope="row">Объем ягодиц:</th>
+      <td>90</td>
+      <td>90</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <th scope="row">Объем бедра одной из ног:</th>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+  <button type="button" class="btn-info" class="btn-info btn-cena" data-bs-toggle="modal" data-bs-target="#parametr">Добавить параметры</button>
+</div>
+
+<div class="fotootchet">
+  <h3>Текущие параметры</h3>
+  <div class="parametr-tabl">
+  <table class="table table-borderless ramka">
+  <tbody class="">
+    <tr>
+      <th scope="row">1.04.2022</th>
+      <td class="bar"><img src="images/lkkabinet/pered.png" alt=""></td>
+      <td><img src="images/lkkabinet/bok.png" alt=""></td>
+      <td><img src="images/lkkabinet/spina.png" alt=""></td>
+    </tr>
+    <tr>
+      <th scope="row">15.04.2022</th>
+      <td class="bar"><img src="images/lkkabinet/pered.png" alt=""></td>
+      <td><img src="images/lkkabinet/bok.png" alt=""></td>
+      <td><img src="images/lkkabinet/spina.png" alt=""></td>
+    </tr>
+    <tr>
+      <th scope="row">28.04.2022</th>
+      <td><img src="images/lkkabinet/pered.png" alt=""></td>
+      <td><img src="images/lkkabinet/bok.png" alt=""></td>
+      <td><img src="images/lkkabinet/spina.png" alt=""></td>
+    </tr>
+  </tbody>
+</table>
+<button type="button" class="btn-info" class="btn-info btn-cena" data-bs-toggle="modal" data-bs-target="#fotootchet">Добавить фотоотчет</button>
+</div>
+</div>  
+
+<div class="dinamika">
+  <h3>Динамика параметров</h3>
+
+<div class="parametr-tabl">
+  <table class="table  table-borderless ramka">
+  <tbody class="">
+    <tr>
+      <th scope="row">Дата</th>
+      <td>1.04.2022</td>
+      <td>15.04.2022</td>
+      <td>28.04.2022</td>
+    </tr>
+    <tr>
+      <th scope="row">Пол:</th>
+      <td>Жен</td>
+      <td>Жен</td>
+      <td>Жен</td>
+    </tr>
+    <tr>
+      <th scope="row">Возраст:</th>
+      <td>33</td>
+      <td>33</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="padding-top: 50px;">
+    <img src="images/lkkabinet/Chart.png" alt=""></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><img src="images/ves.png" alt=""></td>
+      <td><img src="images/tal.png" alt=""></td>
+      <td><img src="images/jop.png" alt=""></td>
+    </tr>
+</tbody>
+</table>
+  </div>
+  <div class="form-check">
+  <input class="form-check-input kub shadow-none" type="checkbox" value="" id="flexCheckChecked" checked="">
+  <label class="form-check-label" for="flexCheckChecked">
+    Я добавил (ла) все параметры и готов (ва) приступить к тренировкам
+  </label>
+</div>
+
+
+
+
+<button type="button" class="btn-info" class="btn-info btn-cena" data-bs-toggle="modal" data-bs-target="#parametr">Добавить параметры</button>
+<div class="red">
+<p>ВАЖНО! Доступ к первой и третьей неделям тренировок<br> откроется только после добавления параметров и фотоотчета!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- модальное окно параметры -->
+<div class="modal fade" id="parametr"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header ">
+        
+        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body ">
+        <h3>Добавить параметры</h3>
+        <div class="pol">
+        
+        <div class="mb-3">
+          <label class="form-label">Текущая дата</label>
+          <input class="form-control" type="date" name="calendar" placeholder="Текущая дата">          
+        </div>
+
+  <div class="mb-3">
+    <label class="form-label trip">Пол</label>
+  <select class="form-select" aria-label="Пример выбора по умолчанию">
+  <option selected="" disabled="" hidden="">женский</option>
+  <option value="1">женский</option>
+  <option value="2">мужской</option>
+  </select>
+        </div>        
+          <div class="mb-3">
+            <label class="form-label trip">Возраст</label>
+          <input type="rost" class="form-control"  placeholder="Возраст">
+        </div>
+        <div class="mb-3">
+            <label class="form-label trip">Рост, в см</label>
+          <input type="rost" class="form-control"  placeholder="Рост">
+        </div>
+        <div class="mb-3">
+            <label class="form-label trip">Вес, в кг</label>
+          <input type="rost" class="form-control"  placeholder="Вес">
+        </div>
+        <div class="mb-3">
+            <label class="form-label trip">Объем руки</label>
+          <input type="rost" class="form-control"  placeholder="Объем руки">
+        </div>
+        <div class="mb-3">
+            <label class="form-label trip">Объем под грудью</label>
+          <input type="rost" class="form-control"  placeholder="Объем под грудью">
+        </div>
+        <div class="mb-3">
+            <label class="form-label trip">Объем талии</label>
+          <input type="rost" class="form-control"  placeholder="Объем талии">
+        </div>
+        <div class="mb-3">
+            <label class="form-label trip">Объем живота (под пупком)</label>
+          <input type="rost" class="form-control"  placeholder="Объем живота (под пупком)">
+        </div>
+        <div class="mb-3">
+            <label class="form-label trip">Объем ягодиц</label>
+          <input type="rost" class="form-control"  placeholder="Объем ягодиц">
+        </div>
+        <div class="mb-3">
+            <label class="form-label trip">Объем бедра одной из ног</label>
+          <input type="rost" class="form-control"  placeholder="Объем бедра одной из ног">
+        </div>
+        </div>
+        
+
+      </div>
+      <div class="modal-footer modal-footer-minimal">
+        <button type="button" class="btn-info btn-minimal">Сохранить</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end_модальное окно параметры -->
+
+
+<!-- модальное окно фотоотчет -->
+<div class="modal fade" id="fotootchet"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header ">
+        
+        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body ">
+        <h3>Добавить фото</h3>
+          <div class="foto">
+            <div class="row align-items-start">
+    <div class="col">
+      <div class="opa">
+      <label >
+        <img src="images/lkkabinet/pered01.png" alt="Нажмите для выбора файла.">
+        <input type="file" hidden>
+      </label>
+    </div>
+    </div>
+    <div class="col">
+      <div class="opa">
+      <label>
+        <img src="images/lkkabinet/bok001.png" alt="Нажмите для выбора файла.">
+        <input type="file" hidden>
+      </label>
+    </div>
+    </div>
+    <div class="col">
+      <div class="opa">
+      <label>
+        <img src="images/lkkabinet/spina001.png" alt="Нажмите для выбора файла.">
+        <input type="file" hidden>
+      </label>
+    </div>
+    </div>
+  </div>            
+         </div>
+      </div>
+      <div class="modal-footer modal-footer-foto">
+        <button type="button" class="btn-info btn-minimal">Сохранить</button>
+  <div class="form-check form-load shadow-none">
+  <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label foto-load" for="flexCheckDefault">
+   Даю согласие на размещение  фотографий<br> на интернет-ресурсах автора программы
+  </label>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end_модальное окно фотоотчет -->
+
+  
+<script>
+  document.getElementById('uploadfileinp').addEventListener('change', function() {
+  alert(this.files[0].name);
+});
+</script>
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script  src="js/slick.min.js"></script>
+<script  src="js/slaid.js"></script> 
+</body>
+</html>

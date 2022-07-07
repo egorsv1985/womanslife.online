@@ -1,0 +1,140 @@
+.nav-lk{
+padding-right: 80px !important;
+padding-left: 80px !important;
+}
+.priv{padding-top: 178px;}
+.privet h3{
+font-family: 'Cormorant-Light';
+line-height: 58px;
+text-transform: uppercase;
+color: #000;
+padding-bottom: 40px;
+}
+.lk-drend{padding-right: 76px;}
+.lk-privet{padding-bottom: 30px;}
+.lk{padding-top: 20px;}
+/*.lk-privet img{padding-left: 40px;}*/
+.ter{padding-bottom: 30px;}
+.trenh{padding-top: 60px;padding-bottom: 60px;}
+.trenx{padding-top: 0px;padding-bottom: 0px;}
+.trenh h3{
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 135%;
+text-transform: uppercase;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #000;
+}
+.bt-lk{display: flex;justify-content: center;}
+.btn-tren {
+ font-family: 'Cormorant';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 24px;
+ line-height: 29px;
+ align-items: center;
+ color: #FFFFFF;
+ background: #018987;
+ background-color: rgb(1, 137, 135);
+ border-radius: 20px;
+ padding: 24px 30px;
+ margin-right: 40px;
+ margin-top: 50px;
+ margin-bottom: 100px;
+}
+.wer{padding-top: 30px;}
+.wer p{line-height: 135%;}
+.plan-op p{
+line-height: 135%;
+margin-bottom: 0px;
+}
+.plan-op{
+padding-top: 20px;
+padding-left: 32px;
+width: 70%;
+}
+.plan-op p{}
+.tyr{padding-bottom: 22px;}
+.video{margin-bottom: 70px;}
+.perecluch{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.lk-left{flex: auto;}
+.perecluch{
+padding-bottom: 70px;
+padding-top: 40px;
+color: #018987;
+}
+.data {color:  #0F9489;margin-bottom: 50px;}
+.person{padding-bottom: 120px;width: 87%;}
+.person p{line-height: 135%;}
+.cvet{color: #0F9489;}
+.parametr h3, .fotootchet h3, .dinamika h3{
+margin-top: 60px;
+font-family: 'Cormorant-Light';
+font-style: normal;
+font-weight: 300;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+color: #000000;
+}
+.ramka{
+border: 1px solid #018987;
+border-radius: 20px;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+-khtml-border-radius: 20px;
+display: inline-grid;
+padding: 30px;
+}
+.table > tbody{
+width: 100%;
+display: inline-table;
+}
+.trip{padding-top: 14px;}
+.bar{padding-bottom: 50px !important;}
+/*.common-row input[type="file"] {
+  display: none;
+}*/
+.foto{padding-top: 60px;}
+.foto-load{font-size: 20px;}
+.form-load{margin-top: -10px !important;}
+.opa:hover {
+opacity: 0.5;
+width: 207px;
+height: 368px;
+background: rgba(0, 0, 0, 0.5);
+color: #FFE200;
+}
+.red p{
+margin-top: 60px;
+margin-bottom: 129px;
+color: red;
+}
+/*.tab-diagram-ves{display: flex;}
+.tab-diagram-ves::before{
+content: url('../images/ves.png');
+padding-right: 25px;
+}*/
+.data h3{font-size: 48px;}
+
+
+@media (min-width: 320px) and (max-width: 575.98px){
+.privet h3{font-size: 20px;padding-bottom: 0px;}
+.privet h1{font-size: 36px;line-height: 100%;}
+.video img{width: 100%;}
+.plan-op{padding-left: 0px;width: 100%;}
+.plan-op p{font-size: 14px;}
+.video{margin-bottom: 20px;padding-top: 50px;}
+.plan-op h5{font-weight: 500;
+font-size: 20px;
+line-height: 135%;}
+.priv {padding-top: 90px;padding-left: 20px;}
+.data{margin-bottom: 20px;}
+.data h3{font-size: 16px;line-height: 21px;}
+}
