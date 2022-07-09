@@ -937,7 +937,7 @@ a:hover {
 /*slaider*/
 
 .slider-wrap {
-  padding-top: 90px;
+  
 }
 
 .slider {
@@ -1426,6 +1426,10 @@ th {
     width: 90%;
     max-width: 200px;
   }
+  .block-row{
+    display: flex;
+    flex-wrap: wrap;
+  }
   .uslovia-wom {
     padding-top: 20px;
     padding-left: 0px;
@@ -1516,7 +1520,7 @@ th {
   }
   .blok-chislo {
     margin-top: 40px;
-    max-width: 400px;
+    max-width: 350px;
   }
   .blok-chislo h4 {
     font-size: 18px;
@@ -1546,11 +1550,11 @@ th {
     top: -60px;
   }
   .f::before {
-    top: -40px;
+    top: -40px;f
   }
   .shpagat {
     margin-bottom: 0px;
-    padding-bottom: 180px;
+    padding-bottom: 300px;
     background-image: url(../images/mobil/shpagat-mobil.png);
   }
   .up-mob {
@@ -1886,8 +1890,8 @@ th {
   .kball {
     max-width: 300px;
   }
-  .kball p {
-    font-size: 18px;
+  p {
+    font-size: 18px !important;
   }
   .tren source,
   .tren img {
